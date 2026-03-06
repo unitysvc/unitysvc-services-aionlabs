@@ -1,0 +1,109 @@
+{
+  "currency": "USD",
+  "display_name": "AION RP LLaMA 3.1",
+  "documents": {
+    "Aion Labs API docs": {
+      "category": "api_reference",
+      "external_url": "https://www.aionlabs.ai/api/docs/",
+      "is_active": true,
+      "is_public": true,
+      "mime_type": "url"
+    },
+    "Aion Labs documentation": {
+      "category": "api_reference",
+      "external_url": "https://www.aionlabs.ai/documentation/",
+      "is_active": true,
+      "is_public": true,
+      "mime_type": "url"
+    },
+    "Connectivity test": {
+      "category": "connectivity_test",
+      "description": "Connectivity test script for the model",
+      "file_path": "../../docs/connectivity.sh.j2",
+      "is_active": true,
+      "is_public": false,
+      "meta": {
+        "output_contains": "this is a test"
+      },
+      "mime_type": "bash"
+    },
+    "How to use this model": {
+      "category": "getting_started",
+      "description": "Documentation on how to use the Aion Labs model",
+      "file_path": "../../docs/description.md",
+      "is_active": true,
+      "is_public": true,
+      "mime_type": "markdown"
+    },
+    "JavaScript code example": {
+      "category": "code_example",
+      "description": "Example code to use the model",
+      "file_path": "../../docs/code-example.js.j2",
+      "is_active": true,
+      "is_public": true,
+      "meta": {
+        "requirements": [
+          "openai"
+        ],
+        "skip_test": true
+      },
+      "mime_type": "javascript"
+    },
+    "Python code example": {
+      "category": "code_example",
+      "description": "Example code to use the model",
+      "file_path": "../../docs/code-example.py.j2",
+      "is_active": true,
+      "is_public": true,
+      "meta": {
+        "requirements": [
+          "openai"
+        ],
+        "skip_test": true
+      },
+      "mime_type": "python"
+    },
+    "Python function calling code example": {
+      "category": "code_example",
+      "description": "Example code for function calling",
+      "file_path": "../../docs/code-example-fc.py.j2",
+      "is_active": true,
+      "is_public": true,
+      "meta": {
+        "requirements": [
+          "openai"
+        ],
+        "skip_test": true
+      },
+      "mime_type": "python"
+    },
+    "cURL code example": {
+      "category": "code_example",
+      "description": "Example curl request for the model",
+      "file_path": "../../docs/code-example.sh.j2",
+      "is_active": true,
+      "is_public": true,
+      "meta": {
+        "output_contains": "this is a test"
+      },
+      "mime_type": "bash"
+    }
+  },
+  "list_price": {
+    "description": "Pricing Per 1M Tokens: $0.2",
+    "price": "0.2",
+    "type": "one_million_tokens"
+  },
+  "schema": "listing_v1",
+  "status": "ready",
+  "time_created": "2025-07-15T00:00:00Z",
+  "user_access_interfaces": {
+    "Provider API": {
+      "access_method": "http",
+      "base_url": "${GATEWAY_BASE_URL}/p/aionlabs",
+      "routing_key": {
+        "model": "aion-labs/aion-rp-llama-3.1-8b"
+      }
+    }
+  }
+}
