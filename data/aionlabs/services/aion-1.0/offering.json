@@ -22,7 +22,7 @@
     "gateway"
   ],
   "time_created": "2025-08-21T00:00:00Z",
-  "upstream_access_interfaces": {
+  "upstream_access_config": {
     "Aion Labs API": {
       "access_method": "http",
       "api_key": "${ secrets.AIONLABS_API_KEY }",
