@@ -108,7 +108,7 @@
   "user_access_interfaces": {
     "Provider API": {
       "access_method": "http",
-      "base_url": "${GATEWAY_BASE_URL}/p/aionlabs",
+      "base_url": "${API_GATEWAY_BASE_URL}/p/aionlabs",
       "routing_key": {
         "model": "aion-labs/aion-rp-llama-3.1-8b"
       }
