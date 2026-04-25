@@ -107,7 +107,7 @@
   "status": "ready",
   "time_created": "2025-08-21T00:00:00Z",
   "user_access_interfaces": {
-    "Provider API": {
+    "provider_api": {
       "access_method": "http",
       "base_url": "${API_GATEWAY_BASE_URL}/p/aionlabs",
       "routing_key": {

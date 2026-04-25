@@ -23,7 +23,7 @@
   ],
   "time_created": "2025-07-15T00:00:00Z",
   "upstream_access_config": {
-    "Aion Labs API": {
+    "aion_labs_api": {
       "access_method": "http",
       "api_key": "${ secrets.AIONLABS_API_KEY }",
       "base_url": "https://api.aionlabs.ai/v1",
