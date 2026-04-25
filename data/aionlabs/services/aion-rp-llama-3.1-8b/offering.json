@@ -1,4 +1,7 @@
 {
+  "capabilities": [
+    "llm"
+  ],
   "description": "Aion RP LLaMA 3.1 8B is a reasoning-optimized large language model released in July 2025. It is built on Meta's LLaMA 3.1 architecture and fine-tuned by Aion Labs for efficient text generation, structured reasoning, and lightweight deployment. Designed for research and production, it supports long-context understanding, coding assistance, and advanced conversation flows.",
   "details": {
     "coding": "Strong performance on code completion and debugging tasks",
@@ -45,8 +48,5 @@
         "model": "aion-labs/aion-rp-llama-3.1-8b"
       }
     }
-  },
-  "capabilities": [
-    "llm"
-  ]
+  }
 }

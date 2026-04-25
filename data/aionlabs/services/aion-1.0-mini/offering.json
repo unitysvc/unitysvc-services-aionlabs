@@ -1,4 +1,7 @@
 {
+  "capabilities": [
+    "llm"
+  ],
   "description": "Aion-1.0-mini is a compact, reasoning-optimized language model based on Metas LLaMA 3.1 architecture and fine-tuned by Aion Labs. Released in July 2025, it delivers efficient text generation, advanced structured reasoning, and strong coding assistance. Designed for both research and production, it supports long-context tasks and lightweight deployment.",
   "details": {
     "coding": "Strong performance on code completion and debugging tasks",
@@ -45,8 +48,5 @@
         "model": "aion-labs/aion-1.0-mini"
       }
     }
-  },
-  "capabilities": [
-    "llm"
-  ]
+  }
 }
