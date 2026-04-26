@@ -8,8 +8,10 @@
     "context_window": "32768",
     "function_calling": "Supports API-based function calling for tool use",
     "model_name": "aion-labs/aion-rp-llama-3.1-8b",
-    "multimodal": "Not multimodal \u2014 optimized for text-only tasks",
-    "reasoning": "Enhanced structured reasoning and step-by-step problem solving"
+    "multimodal": "Not multimodal — optimized for text-only tasks",
+    "reasoning": "Enhanced structured reasoning and step-by-step problem solving",
+    "context_length": 32768,
+    "parameter_count": 8000000000
   },
   "name": "aion-rp-llama-3.1-8b",
   "payout_price": {
