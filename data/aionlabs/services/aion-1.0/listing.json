@@ -23,10 +23,7 @@
       }
     },
     "Default request body": {
-      "$doc_preset": {
-        "is_public": true,
-        "name": "llm_request_template"
-      }
+      "$doc_preset": "llm_request_template"
     },
     "How to use this model": {
       "$doc_preset": "llm_description"
