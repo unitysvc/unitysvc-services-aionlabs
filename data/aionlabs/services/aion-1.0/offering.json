@@ -9,7 +9,7 @@
     "context_window": "131072",
     "function_calling": "Supports API-based function calling for tool use",
     "model_name": "aion-labs/aion-1.0",
-    "multimodal": "Not multimodal \u2014 optimized for text-only tasks",
+    "multimodal": "Not multimodal — optimized for text-only tasks",
     "parameter_count": null,
     "reasoning": "Enhanced structured reasoning and step-by-step problem solving"
   },
@@ -31,7 +31,7 @@
     "aion_labs_api": {
       "access_method": "http",
       "api_key": "${ secrets.AIONLABS_API_KEY }",
-      "base_url": "https://api.aionlabs.ai/v1",
+      "base_url": "https://api.aionlabs.ai",
       "rate_limits": [
         {
           "description": "API request rate limit",
